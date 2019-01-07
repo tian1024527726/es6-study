@@ -79,14 +79,14 @@
 
 `避免在块级作用域内声明函数。如果确实需要，也应该写成函数表达式，而不是函数声明语句。`;
 
-function f() { console.log('I am outside!'); }
-(function () {
-  if (false) {
-    // 重复声明一次函数f
-    function f() { console.log('I am inside!'); }
-  }
-  f();
-}());
+// function f() { console.log('I am outside!'); }
+// (function () {
+//   if (false) {
+//     // 重复声明一次函数f
+//     function f() { console.log('I am inside!'); }
+//   }
+//   f();
+// }());
 
 // // 浏览器的 ES6 环境 实际
 // function f() { console.log('I am outside!'); }
