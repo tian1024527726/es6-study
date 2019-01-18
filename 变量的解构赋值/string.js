@@ -6,3 +6,4 @@
 
 // let {length : len} = 'hello';
 // console.log(len);
+
